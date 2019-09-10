@@ -1,13 +1,20 @@
 # adbscreencast
-adbscreencast is a bash scrip that uses adb screenrecord and mplayer to cast android screen to your linux desktop.
+adbscreencast is a bash scrip that uses adb screenrecord and mplayer to cast an android screen to your linux desktop.
+
+Requirements
+
+>mplayer
+>adb
 
 To run the file, git clone or copy paste code to a file. 
 The while loop is used because adb screenrecord has a max 3 minute limit. to overcome this, you can either do what i did, or recompile from source after changing the limit. this is an easier solution to that problem
 
 make the file executable by using
 
-`cd yourdirectory`
-`chmod +x adbcast`
+```
+cd yourdirectory
+chmod +x adbcast
+```
 
 to run the file:
 
