@@ -6,13 +6,15 @@ The while loop is used because adb screenrecord has a max 3 minute limit. to ove
 
 make the file executable by using
 
-'cd yourdirectory'
-'chmod +x adbcast'
+`cd yourdirectory`
+`chmod +x adbcast`
 
 to run the file:
 
-'sh adbcast'
-<div style="text-align:center">DEMO</div>
+`sh adbcast`
+
+
+# Images
  
 ![Alt text](/adbcastdemo.png?raw=true "DEMO 1")
 ![Alt text](/adbcastreadme.png?raw=true "DEMO 2")
