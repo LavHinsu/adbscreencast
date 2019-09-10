@@ -1,5 +1,5 @@
 # adbscreencast
-adbscreencast is a bash scrip that uses adb screenrecord and mplayer to cast an android screen to your linux desktop.
+adbscreencast is a bash script that uses adb screenrecord and mplayer to cast an android screen to your linux desktop.
 
 Requirements
 
