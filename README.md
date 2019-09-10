@@ -4,6 +4,7 @@ adbscreencast is a bash scrip that uses adb screenrecord and mplayer to cast an 
 Requirements
 
 >mplayer
+and
 >adb
 
 To run the file, git clone or copy paste code to a file. 
