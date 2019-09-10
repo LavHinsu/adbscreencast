@@ -1,0 +1,7 @@
+#!/bin/bash
+
+while true
+do
+adb shell screenrecord --output-format=h264 --size 540x960 -  | mplayer -framedrop -fps 6000 -cache 512 -demuxer h264es -xy 320 - >> /dev/null
+done
+
